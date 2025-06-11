@@ -76,4 +76,6 @@ Attach the wifi antenna to the GEM, and stick the antenna to the side of the opt
 ![](./doc/PGRK25.png)
 
 - **Reassemble the Console and Bask in the Glory of your Creation!:**
+
+**THIS STEP IS REQUIRED!**
 ![](./doc/PGRK26.png)
