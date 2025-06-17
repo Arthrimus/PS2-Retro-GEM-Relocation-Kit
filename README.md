@@ -16,8 +16,16 @@ This component is the mounting solution that moves the Retro GEM from the bottom
 - **[HDMI Port Drilling Guide:](./stl/Retro_GEM_PS2_Fat_Relocation_HDMI_Drilling_Jig.stl)**
     This component is a sacrificial drilling guide that aides you in cutting the HDMI port accurately. It slides onto the rail on the PS2's backplate where the power input block normally resides, and aligns the drill holes correctly to cut the basic shape of the HDMI port before filing to final size.
 ![](./doc/PGRK30.png)
-- **[HDMI Extension Cable:](https://www.pixelfx.co/product-page/ps2-slim-hdmi)**
-    This component is the only part that must be purchased separately. The HDMI extension is the component that moves the HDMI port from the Retro GEM to it's final mounting point on the backplate of the PS2. You can purchase this part directly from PixelFX. It is sold as the PS2 79K installation kit. To purchase this part you should select NO GEM, PS2 Slim 79K Kit, and NO extra cable. This will allow you to purchase only the 79k parts. 
+- **HDMI Extension Cable:**
+    This component is the only part that must be purchased separately. The HDMI extension is the component that moves the HDMI port from the Retro GEM to it's final mounting point on the backplate of the PS2. You have two options for the type of HDMI extension you use. 
+	
+	1.***[Generic Mini HDMI Extension Flex Cable:](https://a.co/d/anGFya6)***
+	The linked cable is an example of a generic Mini HDMI Flex extension that will work with this relocation kit. There are many options identical to this one available across various marketplaces, so you can purchase whichever one is easiest to get in your area.
+	![](./doc/PGRK31.png)
+
+	
+	2.***[PixelFX 79K HDMI Flex](https://www.pixelfx.co/product-page/ps2-slim-hdmi)***
+	This flex cable is sold as part of the PS2 79K installation kit. To purchase this part you should select NO GEM, PS2 Slim 79K Kit, and NO extra cable. This will allow you to purchase only the 79k parts. 
 	![](./doc/PGRK29.png)
 
 ## Install Instructions
@@ -31,6 +39,9 @@ The main flex cable for the Retro GEM needs to be folded differently compared to
 There are ground contact points on the frame of the PS2 that make contact with the ground plane around the PS2 motherboard. You need to bend a couple of these out of the way of the flex cable so it doesn't pinch the flex cable between the motherboard and the frame.
 ![](./doc/PGRK3.png)
 ![](./doc/PGRK4.png)
+- **(Optional) Modify HDMI C-FLP1 Board:**
+If you are using the Generic HDMI extension cable instead of the PixelFX 79K Flex cable then you will need to modify the C-FLP1 board that was included with your Retro GEM install kit. All you need to do is clip the mounting ears off of the left and right sides of the C-FLP1 board.
+![](./doc/PGRK32.png)
 - **Drilling the HDMI Port Holes:**
 Slide the HDMI drilling guide onto the backplate of the PS2 with the 3 hole side facing the opening of the power input block. Drill the three holes using a 7/64" drill or a 1/8" drill. (WARNING if you use a 1/8" drill you can easily end up with an oversized HDMI port. Be very careful and take it slow!)Once you have drilled the 3 hole side of the guide, remove it, flip it over to the 2 hole side and drill the remaining 2 holes.
 ![](./doc/PGRK5.png)
@@ -61,11 +72,18 @@ Now that the riser is installed you can mount the GEM to the riser using 2 M2 sc
 ![](./doc/PGRK19.png)
 
 - **Mounting HDMI Port:**
-Before you mount the HDMI port to the backplate, make sure that you install the screw for the exhaust fan. The screw cannot be installed after the HDMI port is mounted. Slide the HDMI extension port into the hole you cut on the backplate. Once the port is fully inserted then you can slide the HDMI port locking wedge between the post and the rear of the HDMI port.
+Before you mount the HDMI port to the backplate, make sure that you install the screw for the exhaust fan. The screw cannot be installed after the HDMI port is mounted. 
+
+***PixelFX 79k HDMI Flex:*** If you are usin the PixelFX 79K HDMI extension flex, then slide the HDMI extension port into the hole you cut on the backplate. Once the port is fully inserted then you can slide the HDMI port locking wedge between the post and the rear of the HDMI port.
 ![](./doc/PGRK20.png)
 ![](./doc/PGRK21.png)
 ![](./doc/PGRK22.png)
 ![](./doc/PGRK23.png)
+
+***Generic HDMI Flex:*** If you are using the Generic HDMI Flex cable you should remove the breakaway piece from the HDMI wedge and then install the modified C-FLP1 board into the hole you cut on the backplate and install the wedge. After the C-FLP1 board is secured you can then mount the HDMI extension cable to the C-FLP1 board.
+![](./doc/PGRK33.png)
+![](./doc/PGRK34.png)
+![](./doc/PGRK35.png)
 
 - **Connect the HDMI Extension Cable to the Retro GEM:**
 Plug in the HDMI Extension cable and route it neatly around the heatsink.
